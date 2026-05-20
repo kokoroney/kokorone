@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans JP", sans-serif;
+  --font-serif: "Noto Serif JP", serif;
+  
+  --color-brand-100: #F4F1ED;
+  --color-brand-200: #E6DFD6;
+  --color-brand-300: #D0C6B8;
+  --color-brand-400: #B8AA99;
+  --color-brand-500: #9E8D7A;
+  --color-brand-600: #857460;
+  --color-brand-700: #6B5B49;
+  --color-brand-800: #544738;
+  --color-brand-900: #3E342A;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-100);
+  color: var(--color-brand-900);
+}
+
+html {
+  scroll-behavior: smooth;
+}

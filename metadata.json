@@ -1,0 +1,6 @@
+{
+  "name": "心音～kokorone～",
+  "description": "出張オイルマッサージ 心音～kokorone～（高知県）の公式ホームページ。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
